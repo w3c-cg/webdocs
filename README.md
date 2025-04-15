@@ -7,3 +7,5 @@ This group is open to anyone to join. If you would like to join, please visit [t
 We are in the `#docs-cg` channel on the [W3C Community Slack](https://w3ccommunity.slack.com/archives/C08KNG3GFEF) to organize and do work asynchronously between meetings. To get an invite to the W3C Community Slack, please visit [this](https://www.w3.org/slack-w3ccommunity-invite) page.
 
 Our minutes are posted in this repo after every call.
+
+You can find Docs CG meetings on the [Documentation Community Group Calendar](https://www.w3.org/groups/cg/docs-cg/calendar/).
