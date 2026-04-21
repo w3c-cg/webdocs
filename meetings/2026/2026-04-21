@@ -1,0 +1,95 @@
+# Minutes
+
+Present: Florian Scholz, Simeon Vincent, Lola Odelola, Jon Davis, Estelle Weyl, Eric Meyer
+
+New faces to the meeting.
+
+## Threat Modelling
+Lola: Saw posts that there have been some new docs.
+
+Florian: Been working on security. Threat modeling in march. See threat modeling post that is merged on MDN. Part of "Security on the Web" section. Reshaping security tree of MDN; focusing mostly on attacks, such as man in the middle, supply chain attacks, etc. Then worked on defenses that help counter the attacks. Third part is authentication, such as passwords, multifactor like passwords, passkeys. Last month we looked at threaat modeling. This is not "a latest feature"; not a web doc, but rather a risk assessment process. slightly different from our usual work. Demonstrated and explained the threat model section of MDN. goal to make threat modeling more approachable for the average web developer; not just something for security experts
+
+Simeon: will read and provide feedback
+
+Jon: what are the goals
+
+Florian: Devs consider what risks their app has, and how they can resolve it. get inot a security mindset. We surveyed 110 people. 76% said they are not delegating, but rather are responsible themselves, so important to get devs into the security mindset.
+
+Jon: devs will likely threat model a site they're intimately familiar with, then can apply it to future projects. 
+
+Florian: worked with Simone from w3c who works on security. If more people published their threat models people could learn from them. it would be good to have more publically available models so people can learn from them.
+
+Jon: could get Apple securyt to provide feedback?
+
+Link: https://developer.mozilla.org/en-US/docs/Web/Security/Threat_modeling
+
+Two main TM frameworks exist. One is focused on security, the other on privacy.
+
+Lola: Thanks to Jon and Simeon for taking a look and providing feedback.
+
+## New agenda process proposal
+
+Lola: would like to manage the group from [github](https://github.com/w3c-cg/webdocs). If members can add issues to  github with the "add to agenda" label for things that they want discussed at the meeting. We should also be better about adding minutes to githbu to ensure everything is public and visible.
+
+No disagreement
+
+## AOB?
+
+We now have contributors to mdn, w3c, and apple. it would be good to get Chrome.dev as well.
+
+Florian: developing content with SWAG on guidelines with Dan and Simone. Different to be developing on something different! Ideally, telling devs what they should be doing. There's no " you're good" but spelling out how to get you closer to that. Document is opinionated, such as you should use strict CSP. We also say use passkeys. There's opionion in these documents.
+
+Florian: SPlit in 3 parts. Authenticaion is coming up next. Coding conventions, operational practices, etc.
+
+Jon: will there be tie in to MDN.
+
+Florian: Yes. It will all be linking to MDN. It's like a cheatsheet, with explanations of each step on MDN.
+
+Lola: historyically, w3c hasn't created dev docs as a focus. it is a community group, produced with w3c member expertise. Makes w3c more inviting to developers.
+
+Florian: we debated where this should live. It is quite opionionated. Perf group has a primer, that is now outdated. We're happy with it now, but it needs to be maintained. Guidelines evolve because risks evolve.
+
+Lola: Brian Kardell has an understanding of historical perspective on w3c web docs production and maintenance.
+
+Lola: additional issues?
+
+Jon: in WebDX group there is a discussion to include masonry within grid lanes.  how does docsCG see this? HOw do were work with WebDX on this?
+
+Lola: part 2 is easy: most of us are also part of webDX. The first? clarification?
+
+
+Jon: as it's aliased, it reads masonry not gridlanes, but the correct term is gridlanes, even though the colloquial term is masonry. Web feagtures should be switching, with alias flipped, so that we get the correct term now 
+
+Florian: 
+
+Estelle: I think we should discuss flipping the alias the other direction in WebDX
+
+Jon: I raised this last week and the response was basically that there are no general guidelines on how to appraoch this kind of naming. The preference was to keep the name "masonry" since that name has been in use for around a decade.
+
+Simeon: My view is that once the group formally changes the name, that's when the documentation updates and educational changes begin.
+
+Florian: Part of our charter is to help coordinate deprecation. Ideally we would help signal that a change is taking place and desceminate that information. Haven't yet had a case where we've needed to coordinate with other educational sites.
+
+Estelle: Best way to get other educational sites to change is to update MDN.
+
+Lola: Action item - find out if Mozilla has any intention of updating masonry. Should also follow up with WebDX and press the discussion on this name change.
+
+Estelle: Masonry is mentioned in 11 files on MDN.
+
+Lola: There are three main documenation sites: MDN, Webkit, web.dev. Are there others we should be reaching out to? 
+
+Florian: OWD docs has a charter. There are several groups, but not based on data, including CSS-tricks, w3Schools, some russian sites.
+
+Simeon: Still continuing working on extensions, just not with a browser as i am not longer with Mozilla and not working with other browsers. I will eventually start discussing extensions in a docs context, but for now our group's main focus is creating an extension spec.
+
+Florian: when there is a spec, will help add it to bcd so it shows on mdn
+
+Lola: speaking to Oliver Dunk who is an editor on the CG's report. He may have interest in joining this group. didn't realize there wasn't a working group.
+
+Simeon: Charter is under review. with no objections, should be formally created in mid may. 
+
+Lola: open github issue when ready
+
+Florian: we had discussed inviting experts. If you know of experts on topics were covering, invite them here. We should likely do pro-active reachouts on topics we want to cover. at least attempt to get them here. And go to their working groups to talk documention (like Will is doing with privacy docs). Either way.
+
+Lola: will post the minutes to github. Please join our slack. I'll include the shared link to slack in the email. see you in 2 weeks.
