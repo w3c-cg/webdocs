@@ -46,6 +46,7 @@ The group may produce Community Group Reports within the scope of this charter b
   - [OSTIF](https://ostif.org/)
   - [Write The Docs](https://www.writethedocs.org)
   - [ARIA Practices Guide Taskforce](https://www.w3.org/WAI/about/groups/task-forces/practices/) (a subgroup of ARIA WG) who owns/maintains [APG](https://www.w3.org/WAI/ARIA/apg/).
+  - [W3C Internationalization (I18n) Activity](https://www.w3.org/International/)
 - Docs sites
   - [MDN Web Docs](https://developer.mozilla.org)
   - [CanIUse](https://caniuse.com)
